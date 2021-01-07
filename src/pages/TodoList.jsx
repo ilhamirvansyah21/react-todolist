@@ -12,10 +12,17 @@ const TodoList = () => {
     { text: "Learning Raect" }
   ]);
 
+  const addTodo = (value) => {
+    // [...todos] = Membuat array baru yang ada di state todos
+    const addedtodo = [...todos, { text: value }];
+
+    setTodos(addedtodo);
+  };
+
   return (
     <Paper>
       <Header />
-      <TodoForm />
+      <TodoForm addTodo={addTodo} />
       <Todos todos={todos} />
     </Paper>
   );
