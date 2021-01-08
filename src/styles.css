@@ -113,7 +113,7 @@ html {
 
   font-family: "Redressed", cursive;
   font-size: 24px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .add-btn {
