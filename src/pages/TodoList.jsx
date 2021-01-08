@@ -15,10 +15,14 @@ const TodoList = () => {
   const [showAdd, setShowAdd] = useState(false);
 
   const addTodo = (value) => {
-    // [...todos] = Membuat array baru yang ada di state todos
-    const addedTodo = [...todos, { text: value, isCompleted: false }];
+    if (todos.length < 6) {
+      // [...todos] = Membuat array baru yang ada di state todos
+      const addedTodo = [...todos, { text: value, isCompleted: false }];
 
-    setTodos(addedTodo);
+      setTodos(addedTodo);
+    } else {
+      alert("Only 6 Todos is allowed!");
+    }
   };
   const completeTodo = (index) => {
     const addedTodo = [...todos];
