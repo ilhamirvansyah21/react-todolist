@@ -161,3 +161,14 @@ html {
   left: 50%;
   transform: translate(-50%);
 }
+.todo-placeholder-text {
+  font-family: "Redressed", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 16px;
+}
+
+.add-button-placeholder-text {
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 24px;
+}
