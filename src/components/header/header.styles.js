@@ -9,7 +9,6 @@ export const header = () =>
 
 export const headerTitle = (theme) =>
   css`
-    width: 52%;
     text-align: center;
 
     color: ${theme.color.primary.black};

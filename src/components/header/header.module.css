@@ -4,9 +4,7 @@
 }
 
 .headerTitle {
-  width: 52%;
   text-align: center;
-
   color: var(--main-black-color);
   font-size: 3.6rem;
   font-family: "Redressed", cursive;
